@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&display=swap');
+html{font-size: 1.15rem;}
+h2{font-size: 1.4rem;}
 *{font-family: "AR One Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -6,4 +8,26 @@
   font-variation-settings:"ARRR" 10;}
 
 
-.full_width_video{width: 100vw;}
+#trigram{font-size: 45px;}
+#logo{width: 140px;}
+.header_items{justify-content: space-between;}
+.main_navigation{display: none;}
+.main_navigation *{margin: 10px;}
+.navigation_items{display: flex; flex-direction: column;}
+
+.full_width_video{width: 100vw; height: 300px; border: 2px solid black;}
+.full_width_image{width: 100vw;}
+.margin10{margin: 10px;}
+.center_text{text-align: center;}
+.flex_row{display: flex;}
+@media (min-width: 767px){ 
+  #trigram{display: none;}
+
+  .header_items{justify-content: center;}
+
+  .main_navigation{display: block;}
+  .navigation_items{flex-direction: row; justify-content: space-evenly;}
+
+
+
+}
