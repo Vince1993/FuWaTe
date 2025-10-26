@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&display=swap');
-html{font-size: 1.12rem;}
+html{font-size: 1.13rem;}
 h2{font-size: 1.22rem;}
 *{font-family: "AR One Sans", sans-serif;
   font-optical-sizing: auto;
@@ -10,12 +10,12 @@ h2{font-size: 1.22rem;}
 
 
 #trigram{font-size: 50px;}
-#logo{width: 175px; margin: 5px auto;}
-
+#logo{width: 175px;}
+.header_items a{margin: 0px auto;}
 .main_navigation{display: none;}
 .main_navigation *{margin: 10px;}
 .navigation_items{display: flex; flex-direction: column;}
-.hero{border-radius: 20px; background-color: rgb(200, 238, 225);}
+.hero{border-radius: 20px; background-color: #eaf4ff;}
 
 
 .full_width_video{width: 100%; height: 300px; border: 2px solid black;}
@@ -27,8 +27,10 @@ h2{font-size: 1.22rem;}
 .center_text{text-align: center;}
 .flex_row{display: flex;}
 .space_around{justify-content: space-around;}
+.center_vertically{align-items: center;}
 
 .black_background{background-color: black;}
+.white_font{color: white;}
 
 @media only screen and (min-width: 767px) {
   #trigram{display: none;}
@@ -44,6 +46,7 @@ h2{font-size: 1.22rem;}
             width: 50vw;
             display: block;
             object-fit: cover;}
-  .hero > div{flex: 1;}}
-
+  .hero > div{flex: 1;}
+  .full_width_video{height: 500px;}}
   footer{height: 100px; background-color: black;}
+  footer a{cursor: default;}
