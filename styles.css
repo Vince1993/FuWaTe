@@ -13,6 +13,7 @@ a{cursor: pointer; text-decoration: none; color: black;}
 
 #trigram{font-size: 50px;}
 #logo{width: 175px;}
+#logo_inv{width: 140px;}
 .header_items a{margin: 0px auto;}
 .main_navigation{display: none;}
 .main_navigation *{margin: 10px;}
@@ -45,7 +46,7 @@ a{cursor: pointer; text-decoration: none; color: black;}
 .bold{font-weight: 600;}
 .italic{font-style: italic;}
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 820px) {
   #trigram{display: none;}
 
   .header_items{justify-content: center;}
