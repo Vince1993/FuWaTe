@@ -10,6 +10,7 @@ h2{font-size: 1.20rem;}
   font-variation-settings:"ARRR" 10;
   box-sizing:border-box;}
 a{cursor: pointer; text-decoration: none; color: black;}
+strong{font-weight: 800;}
 
 #trigram{font-size: 40px;}
 #logo{width: 175px;}
@@ -32,6 +33,7 @@ a{cursor: pointer; text-decoration: none; color: black;}
 .padding20{padding: 20px;}
 .padding30{padding: 30px;}
 .padding50{padding: 50px;}
+.paddingTop{padding-top: 60px;}
 
 
 .bigger_font{font-size: larger;}
