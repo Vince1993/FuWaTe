@@ -10,7 +10,9 @@ function slideInAndOut() {
 
 function zoomInPic() {
     $(this).toggleClass("zoom");
+    $(this).get(0).scrollIntoView();
     $(this).siblings().toggle();}
+
 
 function scrollToTop(){
     $("html, body").animate({ scrollTop: 0 }, 'slow');
